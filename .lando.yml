@@ -1,0 +1,4 @@
+name: super-fun-friends-party-time-lndo-site
+recipe: drupal8
+config:
+  webroot: .
