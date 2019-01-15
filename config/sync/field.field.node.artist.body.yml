@@ -1,0 +1,22 @@
+uuid: bb6bc608-5e9f-4acb-b2f7-61c7fc7f25c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.artist
+  module:
+    - text
+id: node.artist.body
+field_name: body
+entity_type: node
+bundle: artist
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

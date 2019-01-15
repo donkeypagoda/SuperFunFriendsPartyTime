@@ -1,0 +1,18 @@
+uuid: 5d6e82bd-0936-444c-ab3f-c9fcf71318a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.shows
+id: node.shows.title
+field_name: title
+entity_type: node
+bundle: shows
+label: Show
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

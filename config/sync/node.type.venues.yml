@@ -1,0 +1,18 @@
+uuid: cb1b33be-b491-45ae-ab8d-4d8ab3a99e4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Venues
+type: venues
+description: 'these are the venues in which shows can happen'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

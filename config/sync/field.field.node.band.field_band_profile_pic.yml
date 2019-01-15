@@ -1,0 +1,38 @@
+uuid: 8ab9e75a-d27f-436b-bcc4-6973499a0a83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_band_profile_pic
+    - node.type.band
+  module:
+    - image
+id: node.band.field_band_profile_pic
+field_name: field_band_profile_pic
+entity_type: node
+bundle: band
+label: 'Band Profile Pic'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 5GB
+  max_resolution: 480x640
+  min_resolution: 200x200
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 22df94d4-2d04-4957-9f02-0858cd16ef87
+    alt: 'This is an image of a Chungus, which is a place holder because the band hasn''t uploaded their own image yet.'
+    title: CHUNGUS!
+    width: 810
+    height: 1562
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

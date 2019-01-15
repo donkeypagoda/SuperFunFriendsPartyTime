@@ -1,0 +1,28 @@
+uuid: 55a5769a-a7a8-484f-92cc-4022cf40844a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.venues.body
+    - node.type.venues
+  module:
+    - text
+    - user
+id: node.venues.default
+targetEntityType: node
+bundle: venues
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

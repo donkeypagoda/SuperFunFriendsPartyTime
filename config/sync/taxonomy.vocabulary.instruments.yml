@@ -1,0 +1,9 @@
+uuid: 0e0c03a1-7cc2-4c3d-9dc6-187de1c2bc59
+langcode: en
+status: true
+dependencies: {  }
+name: Instruments
+vid: instruments
+description: 'these are the various instruments that aritsts may play and that may be included in the instrumentation of a band'
+hierarchy: 0
+weight: 0

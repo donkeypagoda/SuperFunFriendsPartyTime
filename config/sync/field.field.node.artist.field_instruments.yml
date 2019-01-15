@@ -1,0 +1,29 @@
+uuid: 9301f578-b180-4143-938c-3f38a13f604a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instruments
+    - node.type.artist
+    - taxonomy.vocabulary.instruments
+id: node.artist.field_instruments
+field_name: field_instruments
+entity_type: node
+bundle: artist
+label: Instruments
+description: 'these are the instruments the artist can and does play'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      instruments: instruments
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

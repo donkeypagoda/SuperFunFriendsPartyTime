@@ -1,0 +1,21 @@
+uuid: 6a12a75b-ab40-46de-8d64-c9587155795b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_started
+    - node.type.band
+id: node.band.field_started
+field_name: field_started
+entity_type: node
+bundle: band
+label: 'Band Started'
+description: 'this is when the band started'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1547497694
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

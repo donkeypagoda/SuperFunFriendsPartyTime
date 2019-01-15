@@ -1,0 +1,18 @@
+uuid: 5af4b2fc-8098-4cba-b718-becea7b2c2fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Band
+type: band
+description: 'a group of artists'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

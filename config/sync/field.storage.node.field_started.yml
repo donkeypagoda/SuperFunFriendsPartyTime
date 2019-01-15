@@ -1,0 +1,18 @@
+uuid: c1e1b3f9-62bf-49e1-92ef-e07156ace5c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_started
+field_name: field_started
+entity_type: node
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
