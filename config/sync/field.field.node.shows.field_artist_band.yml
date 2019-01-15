@@ -1,0 +1,30 @@
+uuid: f03c35dc-1fd4-4c87-a0b3-1f2aa8402a49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artist_band
+    - node.type.artist
+    - node.type.band
+    - node.type.shows
+id: node.shows.field_artist_band
+field_name: field_artist_band
+entity_type: node
+bundle: shows
+label: 'Artist / Band'
+description: 'this is where you put in the Artists and/or Bands that are playing this show'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      artist: artist
+      band: band
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: artist
+field_type: entity_reference

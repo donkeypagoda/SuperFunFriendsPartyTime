@@ -1,0 +1,24 @@
+uuid: e57beed1-9121-4785-a6a3-b5c9a931b585
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.friend_s_shows
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__friend_s_shows_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:friend_s_shows-block_1'
+settings:
+  id: 'views_block:friend_s_shows-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -11,7 +11,7 @@ entity_type: node
 bundle: shows
 label: 'Friend?'
 description: 'this details whether or not the show has Friend bands or artists'
-required: true
+required: false
 translatable: false
 default_value:
   -

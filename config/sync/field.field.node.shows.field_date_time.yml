@@ -1,0 +1,21 @@
+uuid: bf1b316a-0491-49cf-b7ec-76dd1442fd68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_time
+    - node.type.shows
+id: node.shows.field_date_time
+field_name: field_date_time
+entity_type: node
+bundle: shows
+label: 'Date & Time'
+description: 'this is where you put the show date and start time'
+required: true
+translatable: false
+default_value:
+  -
+    value: 1547585269
+default_value_callback: ''
+settings: {  }
+field_type: timestamp
