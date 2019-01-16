@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.band.body
-    - field.field.node.band.field_band_ended
     - field.field.node.band.field_band_profile_pic
     - field.field.node.band.field_members
     - field.field.node.band.field_started
@@ -34,12 +33,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_band_ended:
-    weight: 5
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_timestamp
-    region: content
   field_band_profile_pic:
     weight: 1
     settings:
@@ -105,6 +98,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 6

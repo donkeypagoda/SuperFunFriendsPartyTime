@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.band.body
-    - field.field.node.band.field_band_ended
     - field.field.node.band.field_band_profile_pic
     - field.field.node.band.field_members
     - field.field.node.band.field_started
@@ -24,16 +23,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_band_ended:
-    weight: 105
-    label: above
-    settings:
-      date_format: medium
-      custom_date_format: ''
-      timezone: ''
-    third_party_settings: {  }
-    type: timestamp
     region: content
   field_band_profile_pic:
     weight: 102
