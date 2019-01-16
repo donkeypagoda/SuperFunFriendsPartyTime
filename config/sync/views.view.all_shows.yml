@@ -276,12 +276,16 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: friend-s-shows
+      path: all-shows
       menu:
         type: normal
-        title: 'Friend''s Shows'
+        title: 'All Shows'
+        description: ''
+        expanded: false
+        parent: ''
+        weight: -48
+        context: '0'
         menu_name: main
-        weight: -49
     cache_metadata:
       max-age: -1
       contexts:
