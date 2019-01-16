@@ -12,7 +12,7 @@ bundle: band
 label: 'Band Ended'
 description: 'This is when the band broke up'
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 1547497726

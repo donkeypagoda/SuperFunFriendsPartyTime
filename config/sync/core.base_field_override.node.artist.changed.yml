@@ -1,0 +1,18 @@
+uuid: c3d9ad47-1fda-4e2a-9ba3-3a0cb283535a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.artist
+id: node.artist.changed
+field_name: changed
+entity_type: node
+bundle: artist
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

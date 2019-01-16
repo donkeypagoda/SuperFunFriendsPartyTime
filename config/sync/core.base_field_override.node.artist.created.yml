@@ -1,0 +1,18 @@
+uuid: 2c0c1075-5916-4e1e-a20d-266176d389a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.artist
+id: node.artist.created
+field_name: created
+entity_type: node
+bundle: artist
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

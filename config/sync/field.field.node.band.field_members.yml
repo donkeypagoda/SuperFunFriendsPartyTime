@@ -13,7 +13,7 @@ bundle: band
 label: 'Band Members'
 description: 'band members from existing artist profiles on site'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

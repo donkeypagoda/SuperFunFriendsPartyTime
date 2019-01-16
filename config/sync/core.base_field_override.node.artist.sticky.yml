@@ -1,0 +1,22 @@
+uuid: 96e9e38a-ec4c-4317-933c-dcd2b71fa5e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.artist
+id: node.artist.sticky
+field_name: sticky
+entity_type: node
+bundle: artist
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

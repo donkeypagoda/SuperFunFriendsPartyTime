@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.artist.body
+    - field.field.node.artist.field_artist_profile_pic
+    - field.field.node.artist.field_instruments
     - node.type.artist
   module:
     - text
@@ -27,4 +29,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_artist_profile_pic: true
+  field_instruments: true
+  langcode: true

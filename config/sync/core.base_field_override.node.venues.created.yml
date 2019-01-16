@@ -1,0 +1,18 @@
+uuid: 835c45ed-48e7-4903-b044-2e7eeb5f8af5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.venues
+id: node.venues.created
+field_name: created
+entity_type: node
+bundle: venues
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -13,7 +13,7 @@ bundle: artist
 label: Instruments
 description: 'these are the instruments the artist can and does play'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

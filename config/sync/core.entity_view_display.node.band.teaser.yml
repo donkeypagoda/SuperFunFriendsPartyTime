@@ -5,6 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.band.body
+    - field.field.node.band.field_band_ended
+    - field.field.node.band.field_band_profile_pic
+    - field.field.node.band.field_members
+    - field.field.node.band.field_started
     - node.type.band
   module:
     - text
@@ -27,4 +31,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_band_ended: true
+  field_band_profile_pic: true
+  field_members: true
+  field_started: true
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: fd272a07-0530-47c8-8b09-d425accd5a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.venues
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.venues
+target_entity_type_id: node
+target_bundle: venues
+default_langcode: site_default
+language_alterable: true

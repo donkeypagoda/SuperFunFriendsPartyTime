@@ -5,6 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.shows.body
+    - field.field.node.shows.field_artist_band
+    - field.field.node.shows.field_date_time
+    - field.field.node.shows.field_member_
+    - field.field.node.shows.field_venue
     - node.type.shows
   module:
     - text
@@ -27,4 +31,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_artist_band: true
+  field_date_time: true
+  field_member_: true
+  field_venue: true
+  langcode: true

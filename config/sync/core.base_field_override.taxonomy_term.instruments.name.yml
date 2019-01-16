@@ -1,0 +1,18 @@
+uuid: b378dc39-8b19-4893-84cb-18d020e1dfd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.instruments
+id: taxonomy_term.instruments.name
+field_name: name
+entity_type: taxonomy_term
+bundle: instruments
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
