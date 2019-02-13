@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.test.body
+    - field.field.node.test.field_test_contact
     - node.type.test
   module:
     - text
@@ -20,10 +21,17 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
+  field_test_contact:
+    weight: 102
+    label: above
     settings: {  }
     third_party_settings: {  }
+    type: entity_reference_entity_id
     region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true

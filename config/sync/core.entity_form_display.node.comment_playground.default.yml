@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.comment_playground.body
     - field.field.node.comment_playground.field_god_comments
     - field.field.node.comment_playground.field_is_it_good_
+    - field.field.node.comment_playground.field_why_not
     - node.type.comment_playground
   module:
     - comment
@@ -43,6 +44,15 @@ content:
       display_label: true
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
+  field_why_not:
+    weight: 124
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   langcode:
     type: language_select

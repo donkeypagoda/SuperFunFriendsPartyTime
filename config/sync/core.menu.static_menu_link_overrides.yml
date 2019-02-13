@@ -3,8 +3,8 @@ definitions:
     enabled: true
     menu_name: footer
     parent: ''
-    weight: 0
     expanded: false
+    weight: 0
   standard__front_page:
     weight: -47
     menu_name: main

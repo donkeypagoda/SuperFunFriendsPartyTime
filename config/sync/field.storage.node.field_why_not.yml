@@ -1,0 +1,20 @@
+uuid: 5bd7e409-ea59-4643-b891-a981112b8f1c
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - node
+id: node.field_why_not
+field_name: field_why_not
+entity_type: node
+type: entity_reference
+settings:
+  target_type: contact_form
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

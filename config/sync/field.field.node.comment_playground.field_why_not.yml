@@ -1,0 +1,23 @@
+uuid: 3cc31cd2-dd40-4362-887f-cc358b754ded
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_why_not
+    - node.type.comment_playground
+id: node.comment_playground.field_why_not
+field_name: field_why_not
+entity_type: node
+bundle: comment_playground
+label: 'why not'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

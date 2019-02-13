@@ -1,0 +1,19 @@
+uuid: 9a3add6e-c934-441a-891b-499f6f72b683
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.party_info
+    - field.storage.contact_message.field_party_stuff
+id: contact_message.party_info.field_party_stuff
+field_name: field_party_stuff
+entity_type: contact_message
+bundle: party_info
+label: 'party stuff'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

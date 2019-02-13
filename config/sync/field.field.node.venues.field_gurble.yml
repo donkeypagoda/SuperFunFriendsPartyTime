@@ -1,0 +1,21 @@
+uuid: 3795482d-ecf5-4c4e-8fd0-97bbcd6a38f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gurble
+    - node.type.venues
+id: node.venues.field_gurble
+field_name: field_gurble
+entity_type: node
+bundle: venues
+label: gurble
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings: {  }
+field_type: entity_reference

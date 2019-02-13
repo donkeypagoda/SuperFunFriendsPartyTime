@@ -1,0 +1,20 @@
+uuid: ea7843b8-256c-470a-8b41-741aae8f0110
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - node
+id: node.field_gurble
+field_name: field_gurble
+entity_type: node
+type: entity_reference
+settings:
+  target_type: contact_form
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

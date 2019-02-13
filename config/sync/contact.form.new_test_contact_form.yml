@@ -1,0 +1,12 @@
+uuid: d2328065-169a-414c-87bd-4c9146667233
+langcode: en
+status: true
+dependencies: {  }
+id: new_test_contact_form
+label: 'New Test Contact Form'
+recipients:
+  - Steve@superfun.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''
