@@ -1,0 +1,10 @@
+uuid: 8420444c-9560-4411-a8e7-4f0308c58b6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.something_something_some_some_some
+label: 'something something some some some'
+targetEntityType: node
+cache: true

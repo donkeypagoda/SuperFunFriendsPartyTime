@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.band.body
+    - field.field.node.band.field_audio_file
     - field.field.node.band.field_band_profile_pic
     - field.field.node.band.field_members
     - field.field.node.band.field_started
@@ -22,6 +23,15 @@ content:
     type: text_default
     weight: 101
     settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_audio_file:
+    type: entity_reference_entity_view
+    weight: 105
+    label: above
+    settings:
+      view_mode: default
+      link: false
     third_party_settings: {  }
     region: content
   field_band_profile_pic:
@@ -53,8 +63,8 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true

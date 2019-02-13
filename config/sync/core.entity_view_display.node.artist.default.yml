@@ -5,9 +5,12 @@ dependencies:
   config:
     - field.field.node.artist.body
     - field.field.node.artist.field_artist_profile_pic
+    - field.field.node.artist.field_audio
+    - field.field.node.artist.field_god_comments
     - field.field.node.artist.field_instruments
     - node.type.artist
   module:
+    - comment
     - image
     - text
     - user
@@ -31,6 +34,24 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_audio:
+    type: entity_reference_entity_view
+    weight: 104
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_god_comments:
+    weight: 105
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
     region: content
   field_instruments:
     weight: 103

@@ -1,0 +1,37 @@
+uuid: 0da50656-2381-4669-b5a2-2fb6d5c775d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.super_admin_comment
+    - field.field.comment.super_admin_comment.comment_body
+    - field.field.comment.super_admin_comment.field_author
+  module:
+    - text
+id: comment.super_admin_comment.default
+targetEntityType: comment
+bundle: super_admin_comment
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_author:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

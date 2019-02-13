@@ -1,0 +1,21 @@
+uuid: 6ad54ef6-2fc2-4dea-aa37-2a514c115497
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.super_admin_comment
+    - field.storage.comment.field_author
+id: comment.super_admin_comment.field_author
+field_name: field_author
+entity_type: comment
+bundle: super_admin_comment
+label: Author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings: {  }
+field_type: entity_reference

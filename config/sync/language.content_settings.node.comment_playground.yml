@@ -1,0 +1,11 @@
+uuid: bbc8d44a-7093-4eae-916b-ac4bc35783d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.comment_playground
+id: node.comment_playground
+target_entity_type_id: node
+target_bundle: comment_playground
+default_langcode: site_default
+language_alterable: false

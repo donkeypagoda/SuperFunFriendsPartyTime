@@ -1,0 +1,11 @@
+uuid: 5357b44b-786b-471c-a46b-cffab825f6dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.super_admin_comment
+id: comment.super_admin_comment
+target_entity_type_id: comment
+target_bundle: super_admin_comment
+default_langcode: site_default
+language_alterable: false

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_god_comments
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
@@ -42,6 +43,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_god_comments:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
   field_image:
     type: image_image
     weight: 4
@@ -101,6 +108,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 5

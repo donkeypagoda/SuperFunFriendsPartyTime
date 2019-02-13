@@ -1,0 +1,9 @@
+uuid: 17fdc50e-95ee-4881-84f8-999ac42f15cf
+langcode: en
+status: true
+dependencies: {  }
+id: taco_vendor
+label: 'Taco Vendor'
+weight: 4
+is_admin: null
+permissions: {  }

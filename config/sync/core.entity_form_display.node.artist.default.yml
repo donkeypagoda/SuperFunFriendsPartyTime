@@ -5,10 +5,13 @@ dependencies:
   config:
     - field.field.node.artist.body
     - field.field.node.artist.field_artist_profile_pic
+    - field.field.node.artist.field_audio
+    - field.field.node.artist.field_god_comments
     - field.field.node.artist.field_instruments
     - image.style.thumbnail
     - node.type.artist
   module:
+    - comment
     - image
     - path
     - text
@@ -39,6 +42,21 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_audio:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_god_comments:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   field_instruments:
     weight: 3
@@ -91,6 +109,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 4

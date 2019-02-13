@@ -1,0 +1,31 @@
+uuid: 51f6eb16-d24c-49eb-82e4-e50e3def11d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.comment_playground.body
+    - node.type.comment_playground
+  module:
+    - text
+    - user
+id: node.comment_playground.teaser
+targetEntityType: node
+bundle: comment_playground
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

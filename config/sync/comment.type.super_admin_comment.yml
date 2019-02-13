@@ -1,0 +1,8 @@
+uuid: 1238cfe4-5524-4d5e-ad2e-e9000d5ab289
+langcode: en
+status: true
+dependencies: {  }
+id: super_admin_comment
+label: Super_Admin_Comment
+target_entity_type_id: block_content
+description: 'the word of god'

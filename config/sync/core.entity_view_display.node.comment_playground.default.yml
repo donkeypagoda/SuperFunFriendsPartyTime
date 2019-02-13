@@ -1,0 +1,51 @@
+uuid: ab29edd0-160a-4722-b0f5-a3e5600818cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.comment_playground.body
+    - field.field.node.comment_playground.field_god_comments
+    - field.field.node.comment_playground.field_is_it_good_
+    - node.type.comment_playground
+  module:
+    - comment
+    - text
+    - user
+id: node.comment_playground.default
+targetEntityType: node
+bundle: comment_playground
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_god_comments:
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_is_it_good_:
+    weight: 102
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: 49021481-ae05-42ab-81f3-a1f857cc840d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_it_good_
+    - node.type.comment_playground
+id: node.comment_playground.field_is_it_good_
+field_name: field_is_it_good_
+entity_type: node
+bundle: comment_playground
+label: 'Is it Good?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

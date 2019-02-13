@@ -1,0 +1,33 @@
+uuid: 45f7efa1-3f8a-40e5-bbcb-16c68004d84e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_god_comments
+    - node.type.comment_playground
+  module:
+    - comment
+id: node.comment_playground.field_god_comments
+field_name: field_god_comments
+entity_type: node
+bundle: comment_playground
+label: 'god comments'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  form_location: true
+  anonymous: 0
+  preview: 1
+field_type: comment

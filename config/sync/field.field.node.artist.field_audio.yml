@@ -1,0 +1,28 @@
+uuid: 9f3a1bc0-a9b4-49a2-bece-e76c1b075715
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audio
+    - media.type.audio
+    - node.type.artist
+id: node.artist.field_audio
+field_name: field_audio
+entity_type: node
+bundle: artist
+label: audio
+description: 'this is where you can upload audio of you playing your jammmzzzz'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

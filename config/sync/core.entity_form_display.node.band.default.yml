@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.band.body
+    - field.field.node.band.field_audio_file
     - field.field.node.band.field_band_profile_pic
     - field.field.node.band.field_members
     - field.field.node.band.field_started
@@ -33,6 +34,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_audio_file:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_band_profile_pic:
     weight: 1
     settings:

@@ -1,0 +1,10 @@
+uuid: 2d170aeb-283d-4f23-88ee-43c33500f1f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.dummy_name
+label: 'dummy name'
+targetEntityType: node
+cache: true

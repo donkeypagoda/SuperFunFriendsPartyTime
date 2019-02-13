@@ -1,0 +1,12 @@
+uuid: 29920597-4fad-44f1-9d8f-0e4f0adfba1c
+langcode: en
+status: true
+dependencies: {  }
+id: party_info
+label: 'Party Info'
+recipients:
+  - partypeople@superfunfriendspartytime.com
+reply: ''
+weight: 0
+message: 'Party info on it''s way!'
+redirect: /party

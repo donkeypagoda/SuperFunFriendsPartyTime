@@ -1,0 +1,10 @@
+uuid: 89b0dba0-692f-43df-a073-86468744a277
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.super_special_friend_view_mode
+label: 'Super Special Friend View Mode'
+targetEntityType: user
+cache: true

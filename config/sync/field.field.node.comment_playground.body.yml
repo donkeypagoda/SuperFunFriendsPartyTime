@@ -1,0 +1,22 @@
+uuid: ddf279e8-0097-42ef-8c6c-25f463e9f780
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.comment_playground
+  module:
+    - text
+id: node.comment_playground.body
+field_name: body
+entity_type: node
+bundle: comment_playground
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
