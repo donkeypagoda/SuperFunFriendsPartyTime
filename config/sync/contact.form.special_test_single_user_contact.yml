@@ -1,0 +1,12 @@
+uuid: 9b62b1d1-3649-44f0-9f15-08545faaaa87
+langcode: en
+status: true
+dependencies: {  }
+id: special_test_single_user_contact
+label: 'special test single user contact form'
+recipients:
+  - asdfas@asdsfads.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

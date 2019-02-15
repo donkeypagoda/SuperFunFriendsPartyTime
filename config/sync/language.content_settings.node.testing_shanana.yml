@@ -1,0 +1,11 @@
+uuid: ac0bebf0-6c7f-4fc2-a59c-81816171b9c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.testing_shanana
+id: node.testing_shanana
+target_entity_type_id: node
+target_bundle: testing_shanana
+default_langcode: site_default
+language_alterable: false

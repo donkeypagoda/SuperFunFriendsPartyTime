@@ -1,0 +1,19 @@
+uuid: 3362d759-9d5a-44c4-b31e-c38f2e1a940a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.shanananana
+    - field.field.node.testing_shanana.body
+    - node.type.testing_shanana
+  module:
+    - user
+id: node.testing_shanana.shanananana
+targetEntityType: node
+bundle: testing_shanana
+mode: shanananana
+content: {  }
+hidden:
+  body: true
+  langcode: true
+  links: true

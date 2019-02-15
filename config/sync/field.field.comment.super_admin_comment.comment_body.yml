@@ -11,7 +11,7 @@ id: comment.super_admin_comment.comment_body
 field_name: comment_body
 entity_type: comment
 bundle: super_admin_comment
-label: Comment
+label: 'Thus spake Gawdawg'
 description: ''
 required: true
 translatable: true

@@ -1,0 +1,24 @@
+uuid: 4f39fc9e-e82c-4823-8291-e0514e4d209e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.shshsahasdfg
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__shshsahasdfg_block_1
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:shshsahasdfg-block_1'
+settings:
+  id: 'views_block:shshsahasdfg-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

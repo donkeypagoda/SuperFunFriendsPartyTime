@@ -1,0 +1,30 @@
+uuid: 54ad1420-b1d7-473a-ae31-dfa4acaf39a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.something_something_some
+    - field.field.node.testing_shanana.body
+    - node.type.testing_shanana
+  module:
+    - text
+    - user
+id: node.testing_shanana.something_something_some
+targetEntityType: node
+bundle: testing_shanana
+mode: something_something_some
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

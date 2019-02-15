@@ -1,0 +1,22 @@
+uuid: b70d9819-1c4a-4669-8d7a-e626e1a4ba1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.testing_shanana
+  module:
+    - text
+id: node.testing_shanana.body
+field_name: body
+entity_type: node
+bundle: testing_shanana
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

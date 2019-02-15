@@ -1,0 +1,38 @@
+uuid: 2df88a96-2c1f-43e6-9614-7242c716a00d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.shanananana
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_god_comments
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - node.type.article
+  module:
+    - comment
+    - user
+_core:
+  default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
+id: node.article.shanananana
+targetEntityType: node
+bundle: article
+mode: shanananana
+content:
+  field_god_comments:
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+hidden:
+  body: true
+  comment: true
+  field_image: true
+  field_tags: true
+  langcode: true
+  links: true

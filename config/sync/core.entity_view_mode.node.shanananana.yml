@@ -1,0 +1,10 @@
+uuid: ce845cd5-f8d0-4a6a-93df-70f6d59a2505
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.shanananana
+label: shanananana
+targetEntityType: node
+cache: true

@@ -1,0 +1,31 @@
+uuid: fa336a4e-f2c4-44ac-9ebf-50f2a97e5042
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testing_shanana.body
+    - node.type.testing_shanana
+  module:
+    - text
+    - user
+id: node.testing_shanana.teaser
+targetEntityType: node
+bundle: testing_shanana
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
